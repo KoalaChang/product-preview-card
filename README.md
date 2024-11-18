@@ -8,34 +8,32 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
+- [Built with](#built-with)
 - [Author](#author)
 
 
 ## Overview
+
+This is a responsive product preview card built with React and Tailwind CSS. With the mobile-first workflow, this webpage works well on devices with any screen size.
 
 ### The challenge
 
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
+- See hover and active states for interactive elements
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![](./src/assets/images/desktop.png)
+![](./src/assets/images/desktop-hover.png)
+![](./src/assets/images/desktop-active.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://product-preview-card-psi-navy.vercel.app/](https://product-preview-card-psi-navy.vercel.app/)
 
-## My process
-
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -43,13 +41,6 @@ Users should be able to:
 - Mobile-first workflow
 - React
 - Tailwind CSS
-
-### What I learned
-
-
-
-### Continued development
-
 
 ## Author
 

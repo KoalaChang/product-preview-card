@@ -13,7 +13,7 @@ export default function Card() {
         <div className="flex flex-col md:max-w-[50%]">
         <Info />
         <Price />
-        <button className="bg-light-aquamarine text-pure-white font-montserrat font-bold mx-6 mb-6 py-4 rounded-lg hover:bg-deep-aquamarine md:mx-10 md:mb-7">
+        <button className="bg-light-aquamarine text-pure-white font-montserrat font-bold mx-6 mb-6 py-4 rounded-lg active:bg-white active:text-light-aquamarine active:border active:border-light-aquamarine md:hover:bg-deep-aquamarine md:active:bg-white md:mx-10 md:mb-7">
             <img src={cartIcon} alt="icon of a cart" className="inline-block mr-3 align-text-top"/>
             Add to Cart</button>
         </div>
