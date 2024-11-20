@@ -5,7 +5,7 @@ import Info from "./Info";
 import Price from "./Price";
 
 export default function Card() {
-    return <div id="card" className="bg-pure-white rounded-lg max-w-88 m-auto flex flex-col md:flex-row md:max-w-2xl">
+    return <div id="card" className="bg-pure-white rounded-lg max-w-88 flex flex-col md:flex-row md:max-w-2xl">
         <div id="product-pic">
             <img className="rounded-t-lg md:hidden" src={mobilePic} alt="a picture of Chanel Gabrielle perfume" />
             <img className="rounded-s-lg hidden md:flex" src={desktopPic} alt="a picture of Chanel Gabrielle perfume" />
